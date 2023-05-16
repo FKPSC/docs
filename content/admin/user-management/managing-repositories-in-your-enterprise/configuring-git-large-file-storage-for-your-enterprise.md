@@ -31,7 +31,7 @@ shortTitle: Configure Git LFS
 {% data reusables.large_files.storage_assets_location %}
 {% data reusables.large_files.rejected_pushes %}
 
-For more information, see "[About {% data variables.large_files.product_name_long %}](/articles/about-git-large-file-storage)", "[Versioning large files](/enterprise/user/articles/versioning-large-files/)," and the [{% data variables.large_files.product_name_long %} project site](https://git-lfs.github.com/).
+For more information, see "[AUTOTITLE](/repositories/working-with-files/managing-large-files/about-git-large-file-storage)", "[AUTOTITLE](/repositories/working-with-files/managing-large-files)," and the [{% data variables.large_files.product_name_long %} project site](https://git-lfs.github.com/).
 
 {% data reusables.large_files.can-include-lfs-objects-archives %}
 
@@ -44,8 +44,7 @@ For more information, see "[About {% data variables.large_files.product_name_lon
 {% data reusables.enterprise-accounts.settings-tab %}
 {% endif %}
 {% data reusables.enterprise-accounts.options-tab %}
-4. Under "{% data variables.large_files.product_name_short %} access", use the drop-down menu, and click **Enabled** or **Disabled**.
-![Git LFS Access](/assets/images/enterprise/site-admin-settings/git-lfs-admin-center.png)
+1. Under "{% data variables.large_files.product_name_short %} access", select the drop-down menu, and click **Enabled** or **Disabled**.
 
 ## Configuring {% data variables.large_files.product_name_long %} for an individual repository
 
@@ -73,7 +72,7 @@ For more information, see "[About {% data variables.large_files.product_name_lon
 {% data reusables.large_files.storage_assets_location %}
 {% data reusables.large_files.rejected_pushes %}
 
-1. Disable {% data variables.large_files.product_name_short %} on {% data variables.product.product_location %}. For more information, see "[Configuring {% data variables.large_files.product_name_long %} for your enterprise](#configuring-git-large-file-storage-for-your-enterprise)."
+1. Disable {% data variables.large_files.product_name_short %} on {% data variables.location.product_location %}. For more information, see "[Configuring {% data variables.large_files.product_name_long %} for your enterprise](#configuring-git-large-file-storage-for-your-enterprise)."
 
 2. Create a {% data variables.large_files.product_name_short %} configuration file that points to the third party server.
   ```shell

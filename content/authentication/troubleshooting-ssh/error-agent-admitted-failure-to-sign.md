@@ -15,7 +15,7 @@ topics:
   - SSH
 shortTitle: Agent failure to sign
 ---
-When trying to SSH into {% data variables.product.product_location %} on a Linux computer, you may see the following message in your terminal:
+When trying to SSH into {% data variables.location.product_location %} on a Linux computer, you may see the following message in your terminal:
 
 ```shell
 $ ssh -vT git@{% data variables.command_line.codeblock %}
@@ -25,7 +25,7 @@ $ ssh -vT git@{% data variables.command_line.codeblock %}
 > Permission denied (publickey).
 ```
 
-For more details, see <a href="https://bugs.launchpad.net/ubuntu/+source/gnome-keyring/+bug/201786" data-proofer-ignore>this issue report</a>.
+For more details, see [this issue report](https://bugs.launchpad.net/ubuntu/+source/gnome-keyring/+bug/201786) on Canonical Launchpad.
 
 ## Resolution
 
